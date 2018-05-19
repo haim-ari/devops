@@ -1,0 +1,61 @@
+## Basic Configuration
+baseurl = "http://devops-haim.ari.com"
+languageCode = "en"
+# pygmentsUseClasses=true 
+# PygmentsStyle = "monokai"
+
+
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Haim Ari"
+    title = "Haim Ari"
+    description = "DevOps Engineer"
+    authorimage = "/img/hugo.png"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    #highlightjsstyle = "atom-one-dark"
+    highlightjsstyle = "androidstudio"
+    #highlightjsTheme = "Darcula"
+    highlightjsTheme = "native"
+    highlightjsCDN = "//cdn.bootcss.com"
+    # highlightjsLang = ["yaml", "bash"]
+  [[params.customJS]]
+      src = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"
+      integrity = "sha256-tvm0lHsuUZcOfj/0C9xJTU4OQx5KpUgxUcAXLX5kvwA="
+      crossorigin = "anonymous"
+      async = true
+      defer = true
+    
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id" 
+
+
+## Social Accounts
+[params.social]
+    #github = "<username>"
+    #instagram = "<username>"
+    #xing = "<username>"
+    linkedin = "haimari"
+    twitter = "arihaim"
+    #facebook = "<username>"
+    #stackoverflow = "<username>"
+    email = "haimari1@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
