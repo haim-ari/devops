@@ -3,6 +3,8 @@ baseurl = "https://haim-ari.github.io/.github.io/"
 languageCode = "en"
 # pygmentsUseClasses=true 
 # PygmentsStyle = "monokai"
+
+
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
@@ -18,12 +20,11 @@ theme = "hyde-hyde"
     authorimage = "/img/hugo.png"
     dateformat = "Jan 2, 2006"
     highlightjs = true
-    highlightjsstyle = "atom-one-dark"
-    #highlightjsstyle = "androidstudio"
+    #highlightjsstyle = "atom-one-dark"
+    highlightjsstyle = "androidstudio"
     highlightjsTheme = "Darcula"
-    async = true
-    defer = true
-    
+    # highlightjsTheme = "native"
+
     # please choose either GraphComment or Disqus
     # GraphCommentId = "your-graph-comment-id" 
 

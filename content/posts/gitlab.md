@@ -8,8 +8,6 @@ This is My Test Page
 ~~~bash
 #!/bin/bash
 
-# Test Commit
-
 ###### CONFIG
 ACCEPTED_HOSTS="/root/.hag_accepted.conf"
 BE_VERBOSE=false
@@ -23,7 +21,6 @@ fi
 genApacheConf(){
  echo -e "# Host ${HOME_DIR}$1/$2 :"
 }
-
 ~~~
 
 ~~~json
