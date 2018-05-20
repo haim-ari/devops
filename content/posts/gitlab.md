@@ -1,7 +1,7 @@
 ---
 title: "Gitlab"
 date: 2018-05-18T23:25:18+03:00
-draft: true
+draft: false
 ---
 
 This is My Test Page
