@@ -17,12 +17,12 @@ theme = "hyde-hyde"
 [params]
     author = "Haim Ari"
     title = "Haim Ari"
-    description = "DevOps Engineer"
+    description = "Haim Ari"
     authorimage = "/img/hugo.png"
     dateformat = "Jan 2, 2006"
     highlightjs = true
-    #highlightjsstyle = "atom-one-dark"
-    highlightjsstyle = "androidstudio"
+    highlightjsstyle = "atom-one-dark"
+    #highlightjsstyle = "androidstudio"
     highlightjsTheme = "Darcula"
     
     # please choose either GraphComment or Disqus
@@ -31,7 +31,7 @@ theme = "hyde-hyde"
 
 ## Social Accounts
 [params.social]
-    #github = "<username>"
+    github = "haim-ari"
     #instagram = "<username>"
     #xing = "<username>"
     linkedin = "haimari"
@@ -42,10 +42,25 @@ theme = "hyde-hyde"
 
 ## Main Menu
 [[menu.main]]
-    name = "Posts"
+    name = "All Posts"
     weight = 100
     identifier = "posts"
     url = "/posts/"
+[[menu.main]]
+    name = "General DevOps"
+    weight = 200
+    identifier = "devops"
+    url = "/categories/devops/"
+[[menu.main]]
+    name = "Scripts"
+    weight = 300
+    identifier = "scripts"
+    url = "/categories/scripts/"
+[[menu.main]]
+    name = "Docker"
+    weight = 400
+    identifier = "docker"
+    url = "/categories/docker/"
 [[menu.main]]
     name = "About"
     identifier = "about"
@@ -55,4 +70,3 @@ theme = "hyde-hyde"
 [taxonomies]
    tag = "tags"
    category = "categories"
-   mood = "moods"

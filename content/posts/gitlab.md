@@ -2,8 +2,9 @@
 title: "Gitlab"
 date: 2018-05-18T23:25:18+03:00
 draft: true
-tags: ["gitlab", "CI/CD"]
-categories: ["devops"]
+tags: ["swarm","gitlab"]
+categories: ["Docker"]
+
 ---
 
 This is My Test Page
