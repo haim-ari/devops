@@ -1,6 +1,5 @@
 ## Basic Configuration
 baseurl = "https://haim-ari.github.io/"
-#baseurl = "http://localhost/"
 languageCode = "en"
 # pygmentsUseClasses=true 
 # PygmentsStyle = "monokai"
@@ -52,3 +51,8 @@ theme = "hyde-hyde"
     identifier = "about"
     weight = 200
     url = "/about/"
+[[menu.main]]
+    name = "Python"
+    identifier = "python"
+    weight = 200
+    url = "/python/"
