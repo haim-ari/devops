@@ -2,6 +2,8 @@
 title: "Gitlab"
 date: 2018-05-18T23:25:18+03:00
 draft: false
+tags: ["gitlab", "CI/CD"]
+categories: ["devops"]
 ---
 
 This is My Test Page

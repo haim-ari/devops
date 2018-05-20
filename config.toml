@@ -51,8 +51,8 @@ theme = "hyde-hyde"
     identifier = "about"
     weight = 200
     url = "/about/"
-[[menu.main]]
-    name = "Python"
-    identifier = "python"
-    weight = 200
-    url = "/python/"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+   mood = "moods"
