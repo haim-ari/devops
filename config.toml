@@ -1,10 +1,10 @@
 ## Basic Configuration
-baseurl = "https://haim-ari.github.io/.github.io/"
+baseurl = "https://haim-ari.github.io/"
+#baseurl = "http://localhost/"
 languageCode = "en"
 # pygmentsUseClasses=true 
 # PygmentsStyle = "monokai"
-
-
+publishdir = "haim-ari.github.io"
 theme = "hyde-hyde"
 
 ## Hugo Built-in Features
@@ -13,6 +13,8 @@ theme = "hyde-hyde"
 # enableRobotsTXT = true
 
 ## Site Settings
+
+
 [params]
     author = "Haim Ari"
     title = "Haim Ari"
@@ -23,8 +25,7 @@ theme = "hyde-hyde"
     #highlightjsstyle = "atom-one-dark"
     highlightjsstyle = "androidstudio"
     highlightjsTheme = "Darcula"
-    # highlightjsTheme = "native"
-
+    
     # please choose either GraphComment or Disqus
     # GraphCommentId = "your-graph-comment-id" 
 
