@@ -1,7 +1,7 @@
 ---
 title: "Syntax highlighting test page"
 date: 2018-05-18T23:25:18+03:00
-draft: false
+draft: true
 tags: ["hidden"]
 categories: ["notes"]
 ---
