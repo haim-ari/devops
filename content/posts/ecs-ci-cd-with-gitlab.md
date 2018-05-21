@@ -27,7 +27,7 @@ now… there are many ways to do the same thing, and there is also a more compli
 * At first i installed Gitlab EE & Runner on a Docker node. i used persistent storage removed and recreated the container to make sure all data is intact.
 You can read about running gitlab on docker Here:
 
-~~~
+~~~yaml
 image: docker:git
 services:
   - docker:dind
@@ -129,6 +129,9 @@ Each Stage runs in it’s own clean container. This is explained here:
 
 ##### So what does this pipeline do ?
 
+
+{{< figure src="/img/Screenshot-from-2017-10-04-11-07-28.png" title="gitlab-pipeline" >}}
+
 Each time you commit & push code to your repository, gitlab will detect the changes & trigger the pipeline automatically
 This flow mostly fits a basic “Staging environment”
 
@@ -140,7 +143,7 @@ if deployment completed ok:
 If deployment not OK: Rollback.
 
 Notice this part:
-~~~
+~~~yaml
   # AUTH
     - CERT=`aws ecr get-login --no-include-email --region ${AWS_REGION}`
     - ${CERT}
@@ -162,8 +165,9 @@ The deployment to the ECS cluster is done by the command ecs-deploy
 This is a great project on Github which will save you a lot of time, instead of manipulating json files to create new task definition, and then update the service,
 simply invoke the ecs-deploy command which does a great job. it is based on boto3, you can read about it here:
 
+
 ##### Also, notice this part:
-~~~
+~~~yaml
     - aws s3 cp s3://${REV_BUCKET}/${CI_PROJECT_NAME} ./
     - REV=`cat ./${CI_PROJECT_NAME}`
     - echo rev is $REV

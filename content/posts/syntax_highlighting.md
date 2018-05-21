@@ -1,14 +1,39 @@
 ---
-title: "Gitlab"
+title: "Syntax highlighting test page"
 date: 2018-05-18T23:25:18+03:00
 draft: true
-tags: ["swarm","gitlab"]
-categories: ["Docker"]
+tags: ["hidden"]
+categories: ["notes"]
 
 ---
 
 
-This is My Test Page
+This is a test page i made in order to see if all 
+syntax highlighting works ok:
+
+* HTML
+* Bash
+* Json
+* YAML
+* Python
+
+> For YAML to work, i added the following to the configured template, in my case:
+
+~~~bash
+hyde-hyde/layouts/partials/commenting.html
+~~~
+
+
+(HTML)
+~~~html
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script type="text/javascript">
+    hljs.configure({languages: []});
+    hljs.initHighlightingOnLoad();
+</script>
+~~~
+
+(BASH)
 ~~~bash
 #!/bin/bash
 
@@ -26,11 +51,11 @@ genApacheConf(){
  echo -e "# Host ${HOME_DIR}$1/$2 :"
 }
 ~~~
-
+(JSON)
 ~~~json
 [
   {
-    "title": "apples",
+    "title": "haim",
     "count": [12000, 20000],
     "description": {"text": "...", "sensitive": false}
   },
@@ -41,13 +66,13 @@ genApacheConf(){
   }
 ]
 ~~~
-
+(YAML)
 ~~~yaml
 string_1: "Bar"
 string_2: 'bar'
 string_3: bar
 ~~~
-
+(PYTHON)
 ~~~python
 from something import something
 test = "1"

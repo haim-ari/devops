@@ -22,12 +22,11 @@ theme = "hyde-hyde"
     dateformat = "Jan 2, 2006"
     highlightjs = true
     highlightjsstyle = "atom-one-dark"
-    #highlightjsstyle = "androidstudio"
-    highlightjsTheme = "Darcula"
-    
+    highlightjsTheme = "Dracula"
+
     # please choose either GraphComment or Disqus
     # GraphCommentId = "your-graph-comment-id"
-    customJS = ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"]
+    # customJS = ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"]
 
 
 ## Social Accounts
@@ -66,8 +65,11 @@ theme = "hyde-hyde"
     name = "About"
     identifier = "about"
     weight = 200
-    url = "/about/about-me"
+    url = "/about/about/"
 
 [taxonomies]
    tag = "tags"
    category = "categories"
+
+
+

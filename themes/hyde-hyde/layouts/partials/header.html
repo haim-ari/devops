@@ -23,7 +23,6 @@
     {{ if .Site.Params.highlightjs -}}
     {{ "<!-- highlight.js-->" | safeHTML }}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ .Site.Params.highlightjsstyle | default "default" }}.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
     {{- end }}
     {{ if .Site.Params.PygmentsUseClasses -}}
     {{ "<!-- Pygments Syntax -->" | safeHTML }}
