@@ -26,7 +26,8 @@ theme = "hyde-hyde"
     highlightjsTheme = "Darcula"
     
     # please choose either GraphComment or Disqus
-    # GraphCommentId = "your-graph-comment-id" 
+    # GraphCommentId = "your-graph-comment-id"
+    customJS = ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"]
 
 
 ## Social Accounts
@@ -43,11 +44,11 @@ theme = "hyde-hyde"
 ## Main Menu
 [[menu.main]]
     name = "All Posts"
-    weight = 100
+    weight = 600
     identifier = "posts"
     url = "/posts/"
 [[menu.main]]
-    name = "General DevOps"
+    name = "DevOps"
     weight = 200
     identifier = "devops"
     url = "/categories/devops/"
@@ -65,7 +66,7 @@ theme = "hyde-hyde"
     name = "About"
     identifier = "about"
     weight = 200
-    url = "/about/"
+    url = "/about/about-me"
 
 [taxonomies]
    tag = "tags"

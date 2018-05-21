@@ -162,7 +162,7 @@ The deployment to the ECS cluster is done by the command ecs-deploy
 This is a great project on Github which will save you a lot of time, instead of manipulating json files to create new task definition, and then update the service,
 simply invoke the ecs-deploy command which does a great job. it is based on boto3, you can read about it here:
 
-###### Also, notice this part:
+##### Also, notice this part:
 ~~~
     - aws s3 cp s3://${REV_BUCKET}/${CI_PROJECT_NAME} ./
     - REV=`cat ./${CI_PROJECT_NAME}`
