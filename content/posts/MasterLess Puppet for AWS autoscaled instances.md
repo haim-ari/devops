@@ -6,7 +6,7 @@ tags: ["aws","puppet"]
 categories: ["Puppet"]
 ---
 
-#####Why i moved to MasterLess Puppet for our AWS autoscaled Groups ?
+##### Why i moved to MasterLess Puppet for our AWS autoscaled Groups ?
 In general this is because having multiple puppet masters is not so fun, especially if you are using Foreman.
 I don’t want to have another Puppet master in each site and having to sync all the facts between them.
 
