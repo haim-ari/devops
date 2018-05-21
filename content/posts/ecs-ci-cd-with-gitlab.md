@@ -1,9 +1,9 @@
 ---
-title: "ecs ci-cd with gitlab"
+title: "CI / CD for ECS with gitlab pipelines"
 date: 2017-10-01T21:40:29+03:00
-draft: true
-tags: ["ECS","gitlab"]
-categories: ["Docker"]
+draft: false
+tags: ["ECS", "gitlab", "pipelines", "CI/CD"]
+categories: ["Docker", "DevOps"]
 ---
 
 Here is a short guide on how to easily manage your CI/CD on ECS using Gitlab Pipeline & ecs-deploy

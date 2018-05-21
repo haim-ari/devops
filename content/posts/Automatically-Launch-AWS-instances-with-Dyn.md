@@ -1,7 +1,7 @@
 ---
 title: "Automatically Launch AWS Instances With Dyn"
-date: 2018-05-21T00:23:42+03:00
-draft: true
+date: 2018-04-11T00:23:42+03:00
+draft: false
 tags: ["dyn","python"]
 categories: ["scripts"]
 ---

@@ -26,7 +26,6 @@ theme = "hyde-hyde"
 
     # please choose either GraphComment or Disqus
     # GraphCommentId = "your-graph-comment-id"
-    # customJS = ["https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"]
 
 
 ## Social Accounts
@@ -40,6 +39,7 @@ theme = "hyde-hyde"
     #stackoverflow = "<username>"
     email = "haimari1@gmail.com"
 
+
 ## Main Menu
 [[menu.main]]
     name = "All Posts"
@@ -52,6 +52,11 @@ theme = "hyde-hyde"
     identifier = "devops"
     url = "/categories/devops/"
 [[menu.main]]
+    name = "Python"
+    weight = 200
+    identifier = "python"
+    url = "/categories/python/"
+[[menu.main]]
     name = "Scripts"
     weight = 300
     identifier = "scripts"
@@ -62,9 +67,14 @@ theme = "hyde-hyde"
     identifier = "docker"
     url = "/categories/docker/"
 [[menu.main]]
+    name = "Puppet"
+    weight = 500
+    identifier = "puppet"
+    url = "/categories/puppet/"
+[[menu.main]]
     name = "About"
     identifier = "about"
-    weight = 200
+    weight = 100
     url = "/about/about/"
 
 [taxonomies]
